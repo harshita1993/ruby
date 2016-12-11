@@ -1,1 +1,8 @@
 <h1>hello rails#sample </h1>
+
+<%="message from controller:
+#{@controller_message}" %>
+
+<%= link_to("go to index",
+	{ :action => 'index',
+		:id => 5, :random => "abc"}) %>
